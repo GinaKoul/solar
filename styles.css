@@ -140,6 +140,10 @@ h3{
     -webkit-transform: rotate(-135deg);
 }*/
 
+#footer > div >p >button{
+    background-color: #1F2937;
+}
+
 .credit{
     display: none;
 }
@@ -148,6 +152,23 @@ h3{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: white;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color: #d5eeff;
+}
+
+a:active{
+    color: #ff895d;
+}
+
+a:hover{
+    color: #007cd9;
 }
 
 #footer{
@@ -190,4 +211,19 @@ h3{
 
 .sign > .button{
     border:  2px solid #E5E7EB; 
+}
+
+@media (orientation: portrait){
+    .signup{
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+    }
+    #main > .planets{
+      margin: 100px 100px 100px 100px;
+    }
+    .action{
+        flex-direction: column;
+        margin: 100px 10%;
+    }
 }
