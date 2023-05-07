@@ -135,10 +135,10 @@ h3{
     -webkit-transform: rotate(45deg);
 }
 
-/*.up {
+.up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-}*/
+}
 
 #footer > div >p >button{
     background-color: #1F2937;
